@@ -1,0 +1,31 @@
+* {
+    color: darkslategray;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+body {
+    background-color: beige;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+#hero h1 {
+    font-size: 30px;
+}
+
+#recept {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+#recept img {
+    max-width: 40%;
+    height: auto;
+}
